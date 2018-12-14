@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ej2_nuevo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Natacion"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ventajas:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="La natación es uno de los deportes más completos, ya que en su práctica se implica el uso de gran cantidad y variedad de músculos de las extremidades inferiores y superiores, del abdomen y de la espalda. Además, al tratarse de un deporte aeróbico, fortalecemos también el corazón y los pulmones. A todo esto hay que sumar que el desgaste en articulaciones se reduce al mínimo, al realizarse en el medio acuático."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Precauciones:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Revisar los niveles de glucosa (con un medidor de glucosa casero) antes de nadar, en caso de ser menor de 80 mg/dl deberá tomar alguna fuente de carbohidratos antes de iniciar el ejercicio."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Atender los síntomas leves como dolor de cabeza, mareo o visión borrosa. Si es necesario suspender la sesión de ese día y reanudar al día siguiente."/>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Tener especial cuidado de los pies, pues es muy importante prevenir el riesgo que existe de que se produzcan lesiones. Se debe revisar antes y después de nadar con cuidado, en busca de enrojecimientos, cortadas, ampollas u otro tipo de lesiones."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

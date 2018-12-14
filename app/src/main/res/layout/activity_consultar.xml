@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".consultar">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lista"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-45dp"
+        android:layout_marginStart="20dp"
+        android:text="ID"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignTop="@+id/text1"
+        android:layout_marginStart="76dp"
+        android:text="Mes"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/text1"
+        android:layout_marginStart="147dp"
+
+        android:text="Glucosa"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/text1"
+        android:layout_marginEnd="118dp"
+        android:text="Presion"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/text1"
+        android:layout_marginEnd="55dp"
+        android:text="Peso"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_marginTop="45dp"
+
+        >
+
+    </ListView>
+
+
+</RelativeLayout>

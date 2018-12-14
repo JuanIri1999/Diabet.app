@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ej4_nuevo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entrenamiento con pesas"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ventajas:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Levantar pesas desarrolla los músculos e incluso podría ser beneficioso para los diabéticos. A pesar de una teoría previa que asegura que el músculo ejercitado con las pesas alienta la resistencia a la insulina y por tanto contribuye al desarrollo de diabetes tipo 2, los investigadores de la Universidad de Michigan han demostrado que el músculo que se desarrolla en respuesta al entrenamiento con pesas ayuda a mantener los niveles de azúcar en la sangre."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Precauciones:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Es importante calentar los musculos antes de cada sesión. Su sesión de calentamiento antes de levantar pesas debe incluir ejercicios de estiramiento, calistenia y trotar. Cuando usted comienza cada ejercicio de levantamiento use pesas livianas al comienzo y luego progrese hasta las pesas más pesadas. También es importante el estiramiento durante su enfriamiento."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-El cuerpo nos da señales mientras levantamos pesas. Presta atención a las señales sutiles y evidentes de tu cuerpo para asegurarte de que no te excedes con tu rutina de levantamiento de pesas. Detén el levantando si sientes dolor. Dale al grupo muscular doloroso unos días para recuperarse, o intenta el ejercicio con menos peso. Tu cuerpo también te permite saber cuándo es el momento de aumentar los pesos. Si tu número normal de repeticiones se vuelve demasiado fácil, aumenta el peso."/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Te aconsejo que procures doblar un poco las rodillas durante el proceso de elevación de las pesas para reducir lo máximo posible la tensión en esta zona. Tu espalda debe estar recta ya que, de lo contrario, al levantar las pesas te puede dar un tirón en la zona lumbar. Para eso, es imprescindible que escojas el peso adecuado a tus características, de manera que lo puedas levantar sin muchos problemas."/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

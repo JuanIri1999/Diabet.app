@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/caminar1_nuevo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Caminata"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ventajas:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Caminar descansa nuestra mente y fortalece nuestro cuerpo. Pocos ejercicios son tan liberadores como dejarnos llevar por el ritmo acompasado de nuestros pies mientras el corazón bombea y la mirada se relaja. Tanto es así, que según nos indica un estudio, salir a andar de forma regular podría mejorar la calidad de vida de los pacientes con fibromialgia."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Precauciones:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Usa un calzado resistente diseñado para las condiciones del sendero que recorrerás. Asegúrate de que el calzado te quede bien y que se amolde correctamente a tus pies antes de irte a caminar, para reducir el riesgo de ampollas, dolor en los tobillos y pies, y daño en las uñas de los pies, dijo Catalano."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Caminar con una postura recta: Si se camina con el cuerpo inclinado, hacia delante o hacia atrás, se pueden producir lesiones de espalda o de cuello. Se recomienda caminar recto, con los hombros relajados, la barbilla recta y en paralelo al suelo. Si a la persona que camina le cuesta andar recto, debería realizar ejercicios abdominales para fortalecer los músculos."/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Andar con la cabeza levantada: Una buena postura permite respirar bien y mantener la línea corporal. La mejor postura sería la barbilla levantada, en paralelo al suelo y los ojos mirando unos 3 metros por delante."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Hidratarse: Es importantísimo beber agua antes, durante y después de la caminata. Como pauta, beberemos un vaso de agua 10 minutos antes de empezar a caminar, un vaso cada 20 minutos y al terminar, uno o dos vasos más. Evitemos bebidas con cafeína antes de andar, porque al causar una pérdida de líquidos, tendremos más sed y tendremos que parar a orinar durante el ejercicio. Si logramos caminar durante más de dos horas, tomaremos bebidas isotónicas para deportistas."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

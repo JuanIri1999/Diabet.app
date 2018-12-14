@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ej3_nuevo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bicicleta"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ventajas:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="El ciclismo, entendido como deporte y salud, sin hacer mención al ciclismo profesional, es un deporte aeróbico que al practicarlo de forma moderada ponemos en marcha el consumo de otro tipo de depósitos: nuestros depósitos de grasa. La utilización de esta grasa corporal como combustible muscular nos asegura poder contar con una disponibilidad mucho mas extensa de combustible, así la fatiga muscular se presenta mucho mas tarde en la practica del ciclismo que en otros deportes y esta movilización de nuestros depósitos de grasa provoca una serie de cambios en nuestro perfil lipídico muy beneficiosos para nuestra salud."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Precauciones:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Usar calzado específico con un alto grado de rigidez y la colocación adecuada del pie supone una mejora sustancial en la calidad de la ejecución técnica."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Otro aspecto muy importante a tener en cuenta es que solamente debe hacerse fuerza al bajar el pedal y tratar de relajar la musculatura lo máximo posible durante la fase de ascenso del mismo, no realizarlo de forma correcta puede producir problemas lumbares por el estrés que genera a este nivel."/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Toda práctica deportiva debe finalizar con un periodo de enfriamiento o vuelta a la calma progresivo. En esta fase el empleo de estiramientos pasivos está muy recomendado, especialmente dirigidos musculatura dorsal y lumbar y de la parte posterior del muslo"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="-Además es muy importante realizar ejercicios musculares de compensación para tener una musculatura eficaz, sin desequilibrios y centrada en los músculos abdominales profundos, torácicos y paravertebrales."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
